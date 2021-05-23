@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="401dp"
+        android:layout_height="696dp"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="7dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/btn" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="80dp"
+        android:layout_height="37dp"
+        android:text=""
+        android:textColor="@color/black"
+        android:textSize="10dp"
+        android:visibility="invisible"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.252" />
+
+
+    <ImageView
+        android:id="@+id/kk"
+        android:layout_width="126dp"
+        android:layout_height="136dp"
+        android:background="@drawable/pp"
+        android:onClick="resimSec"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.814"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.065"
+        tools:srcCompat="@tools:sample/avatars" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="391dp"
+        android:layout_height="470dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.482"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <EditText
+            android:id="@+id/ad"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:ems="10"
+            android:hint="Şirket Adı"
+            android:fontFamily="@font/amita"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/adres"
+            android:layout_width="match_parent"
+            android:layout_height="58dp"
+            android:ems="10"
+            android:hint="Adress"
+            android:fontFamily="@font/amita"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/acıklama"
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:ems="10"
+            android:fontFamily="@font/amita"
+            android:hint="Açıklama"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/emaıl"
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:ems="10"
+            android:hint="Email"
+            android:fontFamily="@font/amita"
+            android:inputType="textEmailAddress"
+            android:visibility="visible" />
+
+        <EditText
+            android:id="@+id/Özelık"
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:ems="10"
+            android:hint="özelikler"
+            android:fontFamily="@font/amita"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/zaman"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:ems="10"
+            android:hint="Kaç Saat"
+            android:fontFamily="@font/amita"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/maas"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:ems="10"
+            android:hint="Maaş"
+            android:fontFamily="@font/amita"
+            android:inputType="textPersonName" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginBottom="4dp"
+        android:background="@drawable/btn"
+        android:fontFamily="@font/amita"
+        android:text="Send"
+        app:backgroundTint="@color/black"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/t1" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

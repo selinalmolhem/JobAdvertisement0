@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="0dp"
+        android:layout_height="99dp"
+        android:layout_marginBottom="16dp"
+        android:background="@drawable/btn2"
+        android:text="Başvuru"
+        android:textSize="20dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView3" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="396dp"
+        android:layout_height="393dp"
+        android:layout_marginTop="200dp"
+        android:layout_marginBottom="108dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="@+id/button4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <EditText
+            android:id="@+id/editTextTextPersonName19"
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:ems="10"
+            android:hint="Ad Soyad"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName18"
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:ems="10"
+            android:hint="Bölüm"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName17"
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:ems="10"
+            android:hint="Tel No"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName11"
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:ems="10"
+            android:hint="Yaş"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName8"
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:ems="10"
+            android:hint="Denyimler"
+            android:inputType="textPersonName" />
+
+        <EditText
+            android:id="@+id/editTextTextPersonName2"
+            android:layout_width="match_parent"
+            android:layout_height="61dp"
+            android:ems="10"
+            android:hint="Kurslar"
+            android:inputType="textPersonName" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="0dp"
+            android:layout_height="0dp"
+            android:layout_marginStart="7dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginEnd="7dp"
+            android:layout_marginBottom="9dp"
+            app:srcCompat="@drawable/btn" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="131dp"
+        android:layout_height="134dp"
+        android:layout_marginTop="52dp"
+        android:layout_marginBottom="421dp"
+        android:text="Fotograf"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView3"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

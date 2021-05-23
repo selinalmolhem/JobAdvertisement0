@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".icerikler1">
+
+    <Button
+        android:id="@+id/deta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="120dp"
+        android:layout_marginLeft="120dp"
+        android:layout_marginEnd="125dp"
+        android:layout_marginRight="125dp"
+        android:layout_marginBottom="11dp"
+        android:background="@drawable/btn2"
+        android:fontFamily="@font/amita"
+        android:text="Email gönder"
+        app:backgroundTint="@color/black" />
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="361dp"
+            android:layout_height="651dp"
+            android:layout_centerInParent="true"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/icerik_activity_imageViewsellResim"
+                android:layout_width="115dp"
+                android:layout_height="140dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="496dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/d1"
+                    android:layout_width="match_parent"
+                    android:layout_height="80dp"
+                    android:fontFamily="@font/amita"
+                    android:textColor="@color/black"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/d6"
+                    android:layout_width="match_parent"
+                    android:layout_height="82dp"
+                    android:fontFamily="@font/amita"
+                    android:textColor="@color/black"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/d7"
+                    android:layout_width="match_parent"
+                    android:layout_height="79dp"
+                    android:fontFamily="@font/amita"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/detay2"
+                    android:layout_width="match_parent"
+                    android:layout_height="89dp"
+                    android:fontFamily="@font/amita"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/detay5"
+                    android:layout_width="match_parent"
+                    android:layout_height="101dp"
+                    android:fontFamily="@font/amita"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:id="@+id/detay4"
+                    android:layout_width="match_parent"
+                    android:layout_height="155dp"
+                    android:fontFamily="@font/amita"
+                    android:textSize="25dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+
+</RelativeLayout>
